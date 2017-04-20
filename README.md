@@ -22,6 +22,8 @@ if ( ! ( function_exists( 'has_site_icon' ) && has_site_icon() ) ) { ?>
   <link rel="shortcut icon" href="<?php echo $this['path']->url('theme:favicon.ico');?>">
   <link rel="apple-touch-icon-precomposed" href="<?php echo $this['path']->url('theme:apple_touch_icon.png'); ?>">
 <?php } ?>
+
+// insert FB SDK here 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
